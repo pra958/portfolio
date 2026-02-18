@@ -10,25 +10,25 @@ const About = () => {
             <div className='row px-3'>
               <div className='col'>
                 <p className='text-muted m-0'>Date of Birth</p>
-                <p>02 Nov 1997</p>
+                <p>20 July 1995</p>
                 <p className='text-muted m-0'>Permanent Address </p>
                 <p>
-                  B-301 Shankheshwar Pearls,
+                  101 CO GIRASE Lokmanya Nagar Thane,
                   <br />
-                  Adharwadi Road,
+                  Pada No 3, Lokmanya Nagar
                   <br />
-                  Kalyan West 421301,
+                  Thane West 400606,
                   <br />
                   Maharashtra, India
                 </p>
               </div>
               <div className='col'>
                 <p className='text-muted m-0'>Area Pin Code</p>
-                <p>421301</p>
+                <p>400606</p>
                 <p className='text-muted m-0'>Marital Status</p>
-                <p>Single / Unmarried</p>
+                <p>Married</p>
                 <p className='text-muted m-0'>Hometown</p>
-                <p>Prayagraj</p>
+                <p>Chatrapati Sambhaji Nagar</p>
               </div>
             </div>
             <div className='row px-3'>
@@ -74,13 +74,13 @@ const About = () => {
               data-locale='en_US'
               data-type='vertical'
               data-theme='light'
-              data-vanity='saurabhrkp'
+              data-vanity='prakash-umbare'
             >
               <a
                 className='LI-simple-link'
-                href='https://in.linkedin.com/in/saurabhrkp?trk=profile-badge'
+                href='https://in.linkedin.com/in/prakash-umbare?trk=profile-badge'
               >
-                Saurabh Patel
+                Prakash Umbare
               </a>
             </div>
           </div>

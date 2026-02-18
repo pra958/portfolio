@@ -21,7 +21,7 @@ const Skills = () => {
               </div>
             </div>
             <div className='p-2'>
-              <h6>Bootstrap</h6>
+              <h6>WebAPI</h6>
               <div className='progress'>
                 <div
                   className='progress-bar progress-bar-striped bg-dark progress-bar-animated'
@@ -42,7 +42,7 @@ const Skills = () => {
                   aria-valuenow='85'
                   aria-valuemin='0'
                   aria-valuemax='100'
-                  style={{ width: '65%' }}
+                  style={{ width: '85%' }}
                 ></div>
               </div>
             </div>
@@ -52,7 +52,7 @@ const Skills = () => {
                 <div
                   className='progress-bar progress-bar-striped bg-warning progress-bar-animated'
                   role='progressbar'
-                  aria-valuenow='65'
+                  aria-valuenow='55'
                   aria-valuemin='0'
                   aria-valuemax='100'
                   style={{ width: '65%' }}
