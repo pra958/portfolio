@@ -7,17 +7,23 @@ const Projects = () => {
           <div className='col px-4 justify-content-center'>
             <h3 className='text-center'>Experience</h3>
             <hr />
-            <h6>Inspection Module</h6>
-            <p>
-              Generali Central Insuarance (Future Generali India Insuarance)
+            <h5>Generali Central Insuarance (Future Generali India Insuarance)</h5>
+            <hr />
+            <h6>Jan 2022 to Nov 2025</h6>
+            <ul>
+  
               <br />
-              Jan 2022 to Apr 2020 (Full Time)
-              <br />
-                  Worked as Asp.net Developer
-                  Worked on VAPT's 
-                  Worked on Asp.net Core 
-                  Worked on WSO2 - API Gateways
-            </p>
+                 <li>Worked as Asp.net Developer</li> 
+                  <br />
+                  <li>Worked on VAPT's</li> 
+                  <br />
+                  <li>Worked on Asp.net Core </li>
+                  <br />
+                  <li>Worked on WSO2 - API Gateways</li>
+            </ul>
+
+
+            <hr />       
             {/* <p>
               Link for Repository:
               <a
