@@ -80,11 +80,23 @@ const Skills = () => {
             </span>
 
             <span className='badge badge-light p-3 m-1'>
+              <h6 className='m-0'>CSS</h6>
+            </span>
+
+            <span className='badge badge-light p-3 m-1'>
+              <h6 className='m-0'>JavaScript</h6>
+            </span>
+
+            <span className='badge badge-light p-3 m-1'>
+              <h6 className='m-0'>TypeScript</h6>
+            </span>
+
+            <span className='badge badge-light p-3 m-1'>
               <h6 className='m-0'>C#</h6>
             </span>
 
             <span className='badge badge-light p-3 m-1'>
-              <h6 className='m-0'>MVC</h6>
+              <h6 className='m-0'>SQL Server</h6>
             </span>
             <span className='badge badge-light p-3 m-1'>
               <h6 className='m-0'>GitHub Actions</h6>
@@ -93,11 +105,9 @@ const Skills = () => {
             <span className='badge badge-light p-3 m-1'>
               <h6 className='m-0'>RESTful API</h6>
             </span>
+
             <span className='badge badge-light p-3 m-1'>
-              <h6 className='m-0'>SQL</h6>
-            </span>
-            <span className='badge badge-light p-3 m-1'>
-              <h6 className='m-0'>CICD</h6>
+              <h6 className='m-0'>CICD Deployements</h6>
             </span>
             <span className='badge badge-light p-3 m-1'>
               <h6 className='m-0'>Visual Studio Code</h6>
@@ -107,6 +117,18 @@ const Skills = () => {
             </span>
             <span className='badge badge-light p-3 m-1'>
               <h6 className='m-0'>JSON</h6>
+            </span>
+
+            <span className='badge badge-light p-3 m-1'>
+              <h6 className='m-0'>Postman</h6>
+            </span>
+
+            <span className='badge badge-light p-3 m-1'>
+              <h6 className='m-0'>Swagger</h6>
+            </span>
+
+            <span className='badge badge-light p-3 m-1'>
+              <h6 className='m-0'>SOAP UI</h6>
             </span>
           </div>
         </div>

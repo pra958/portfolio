@@ -1,4 +1,27 @@
 const About = () => {
+  const socialLinks = [
+    {
+      icon: "bi-linkedin",
+      url: "https://linkedin.com/in/prakash-umbare",
+      color: "text-primary",
+    },
+    {
+      icon: "bi-facebook",
+      url: "https://facebook.com/Prakash Umbare",
+      color: "text-primary",
+    },
+    {
+      icon: "bi-twitter-x",
+      url: "https://twitter.com/prakashumbare07",
+      color: "text-dark",
+    },
+    {
+      icon: "bi-instagram",
+      url: "https://instagram.com/prakashumbare07",
+      color: "text-danger",
+    },
+  ];
+
   return (
     <>
       <div style={{ height: '65px' }} id='about'></div>
@@ -58,8 +81,8 @@ const About = () => {
                   <tbody>
                     <tr>
                       <td>Marathi</td>
-                      <td>Beginner</td>
-                      <td>No</td>
+                      <td>Proficient</td>
+                      <td>Yes</td>
                     </tr>
                   </tbody>
                 </table>
@@ -83,8 +106,29 @@ const About = () => {
                 Prakash Umbare
               </a>
             </div>
-          </div>
+          </div>          
         </div>
+        
+ <div className="row mt-4">
+  <div className="col text-center">
+    <div className="d-flex justify-content-center">
+      {socialLinks.map((item, index) => (
+        <a
+          key={index}
+          href={item.url}
+          target="_blank"
+          rel="noreferrer"
+          className="mx-2 d-flex align-items-center justify-content-center rounded-circle shadow"
+          style={{ width: "45px", height: "45px" }}
+        >
+          <i className={`bi ${item.icon} fs-4 ${item.color}`}></i>
+        </a>
+      ))}
+    </div>
+  </div>
+</div>
+
+
       </div>
     </>
   );
